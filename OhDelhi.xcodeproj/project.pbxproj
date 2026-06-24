@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8085F98A2FEC4ABA0067B6B0 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 8085F9892FEC4ABA0067B6B0 /* Sparkle */; };
 		AA00C00A2FB30000000A1234 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = AA00C0092FB30000000A1234 /* Yams */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,13 @@
 			);
 			target = 8080E4F62FD31D07000CBA9E /* OhDelhiMobile */;
 		};
+		8085F98C2FEC592A0067B6B0 /* Exceptions for "OhDelhi" folder in "OhDelhi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA00B0C92FB30000000A1234 /* OhDelhi */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -63,6 +71,7 @@
 		AA00B0CC2FB30000000A1234 /* OhDelhi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				8085F98C2FEC592A0067B6B0 /* Exceptions for "OhDelhi" folder in "OhDelhi" target */,
 				8080E52A2FD31DC4000CBA9E /* Exceptions for "OhDelhi" folder in "OhDelhiMobile" target */,
 			);
 			path = OhDelhi;
@@ -97,6 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA00C00A2FB30000000A1234 /* Yams in Frameworks */,
+				8085F98A2FEC4ABA0067B6B0 /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +232,7 @@
 			name = OhDelhi;
 			packageProductDependencies = (
 				AA00C0092FB30000000A1234 /* Yams */,
+				8085F9892FEC4ABA0067B6B0 /* Sparkle */,
 			);
 			productName = OhDelhi;
 			productReference = AA00B0CA2FB30000000A1234 /* OhDelhi.app */;
@@ -265,6 +276,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				AA00B0F42FB30000000A1234 /* XCRemoteSwiftPackageReference "Yams" */,
+				8085F9882FEC4ABA0067B6B0 /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA00B0CB2FB30000000A1234 /* Products */;
@@ -658,6 +670,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OhDelhi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -692,6 +706,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OhDelhi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -760,6 +776,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8085F9882FEC4ABA0067B6B0 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.3;
+			};
+		};
 		AA00B0F42FB30000000A1234 /* XCRemoteSwiftPackageReference "Yams" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jpsim/Yams";
@@ -771,6 +795,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8085F9892FEC4ABA0067B6B0 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8085F9882FEC4ABA0067B6B0 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
 		AA00C0092FB30000000A1234 /* Yams */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AA00B0F42FB30000000A1234 /* XCRemoteSwiftPackageReference "Yams" */;

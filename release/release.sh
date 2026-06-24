@@ -26,7 +26,7 @@ set -euo pipefail
 APP_NAME="OhDelhi"
 SCHEME="OhDelhi"
 PROJECT="OhDelhi.xcodeproj"
-GITHUB_REPO="REPLACE_USER/OhDelhi"        # e.g. davidturnbull/OhDelhi
+GITHUB_REPO="dt111270/OhDelhi"            # your GitHub slug
 NOTARY_PROFILE="ohdelhi-notary"           # `xcrun notarytool store-credentials` profile name
 MIN_MACOS="14.0"                          # minimum supported macOS (match deployment target)
 # Path to Sparkle's sign_update tool. After adding Sparkle via SPM it lives under
