@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Developer ID = distribute outside the App Store (what we notarise). -->
+    <key>method</key>
+    <string>developer-id</string>
+
+    <!-- Hardened Runtime is already on in the target; keep signing automatic. -->
+    <key>signingStyle</key>
+    <string>automatic</string>
+
+    <!-- Your 10-character Apple Developer Team ID. -->
+    <key>teamID</key>
+    <string>REPLACE_TEAM_ID</string>
+</dict>
+</plist>

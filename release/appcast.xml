@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>OhDelhi</title>
+    <description>OhDelhi delivery tracker — automatic updates.</description>
+    <language>en</language>
+
+    <!--
+      release.sh PREPENDS a new <item> here on each release. Newest first.
+      Example of what an entry looks like (do not edit by hand — let the
+      script write it):
+
+      <item>
+        <title>0.2</title>
+        <pubDate>Tue, 24 Jun 2026 19:00:00 +0100</pubDate>
+        <sparkle:version>3</sparkle:version>                         build number
+        <sparkle:shortVersionString>0.2</sparkle:shortVersionString> marketing version
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <enclosure
+          url="https://github.com/USER/REPO/releases/download/v0.2/OhDelhi-0.2.zip"
+          sparkle:edSignature="BASE64_SIGNATURE_FROM_sign_update"
+          length="ZIP_BYTE_LENGTH"
+          type="application/octet-stream" />
+      </item>
+    -->
+
+  </channel>
+</rss>

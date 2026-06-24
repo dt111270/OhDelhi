@@ -1,0 +1,25 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+
+# CocoaPods (not used, but just in case)
+Pods/
+
+# macOS
+.DS_Store
+
+# Misc
+*.swp
+build/
+*.xcuserstate
+DerivedData/
