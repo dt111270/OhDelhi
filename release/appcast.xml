@@ -6,6 +6,15 @@
     <language>en</language>
 
     <item>
+      <title>0.3</title>
+      <pubDate>Thu, 25 Jun 2026 15:39:39 +0100</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/dt111270/OhDelhi/releases/download/v0.3/OhDelhi-0.3.zip" sparkle:edSignature="K78tgx5/VcBvcb8W/PVomSr3Bs+z20XBQx9zr3T55tEC68GfssyQyhBToomrdDlYnvM81k2xTg8St//iLsXPDQ==" length="4930865" type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>0.2</title>
       <pubDate>Thu, 25 Jun 2026 07:12:06 +0100</pubDate>
       <sparkle:version>3</sparkle:version>
